@@ -129,8 +129,9 @@ comments:
     clientSecret: dbb79662951b3c18df751629cb75d538f4ed7c3d # GitHub Application Client Secret
     repository  : cyrusxiao.github.io # GitHub repo
     owner       : cyrusxiao # GitHub repo owner
-    admin: cyrusxiao # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
+      - cyrusxiao
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
