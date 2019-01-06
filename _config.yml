@@ -22,7 +22,7 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : cyrusxiao # Your Site Title
 description: > # this means to ignore newlines until "Language & timezone"
-  肖奎的个人博客，主要是记录了个人的学习、生活、工作、及一些个人见解。
+  肖奎的博客，主要是记录了个人的学习、生活、工作、及一些个人见解。
 
 
 ## => Language and Timezone
@@ -72,7 +72,7 @@ paths:
 excerpt_separator: <!--more-->
 
 ## license
-license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
+license: # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
 
 ## TOC
 toc:
@@ -116,7 +116,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -125,11 +125,11 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    clientID    : a363c2d0e792fee7bb22 # GitHub Application Client ID
+    clientSecret: dbb79662951b3c18df751629cb75d538f4ed7c3d # GitHub Application Client Secret
+    repository  : cyrusxiao.github.io # GitHub repo
+    owner       : cyrusxiao # GitHub repo owner
+    admin: cyrusxiao # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
