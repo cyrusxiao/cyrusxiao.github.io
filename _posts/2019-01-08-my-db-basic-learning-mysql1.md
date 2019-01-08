@@ -1,4 +1,5 @@
 ---
+layout: article
 title: 数据库基础学习-MySQL(一)
 tags: 数据库基础 MySQL
 article_header:
@@ -101,24 +102,24 @@ group by 列名 \[having 组条件\]
 
 ## 五、约束
 
-1. 主键约束 primary key
+* 主键约束 primary key
   
-* 特点：不能为null、不能重复、可被从表引用
-* 添加主键约束：alter table 表名 add primary key(列名);
-* 删除主键约束：alter table 表名 drop primary key;
-* 联合主键：`eg: 创建老师与学生的关系表：create table teacher_student(tid int, sid int, primary key(tid, sid));`
-* 主键自增长：auto_increment
+  * 特点：不能为null、不能重复、可被从表引用
+  * 添加主键约束：alter table 表名 add primary key(列名);
+  * 删除主键约束：alter table 表名 drop primary key;
+  * 联合主键：`eg: 创建老师与学生的关系表：create table teacher_student(tid int, sid int, primary key(tid, sid));`
+  * 主键自增长：auto_increment
 
-2. 非空约束 not null
+* 非空约束 not null
 
-3. 唯一约束 unique
+* 唯一约束 unique
 
-4. 外键约束 foreign key
+* 外键约束 foreign key
 
-* constraint 外键约束名 foreign key(外键列名) references 关联表(关联表主键列名);
-* 外键特点：
-  * 外键列值必须等于关联表主键的值
-  * 可以重复、可以为空、一张表可以有多个外键
+  * constraint 外键约束名 foreign key(外键列名) references 关联表(关联表主键列名);
+  * 外键特点：
+    * 外键列值必须等于关联表主键的值
+    * 可以重复、可以为空、一张表可以有多个外键
 
 **表与表之间的关系**
 
