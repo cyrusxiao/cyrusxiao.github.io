@@ -59,7 +59,7 @@ SQL方言：只适用于指定的数据库，如MySQL的limit
 
 * 添加行数据：inset into 表名 values(列值11, 列值12),(列值21, 列值22); insert into 表名(列名1, 列名2) value (列值1, 列值2);
 * 修改值（更改所有行）：update 表名 set 列名1 = 列值1, 列名2 = 列值2;
-* 修改值（指定行）：update 表名 set 列名1 = 列值1, 列名2 = 列值2 where 条件;
+* 修改值（更改指定行）：update 表名 set 列名1 = 列值1, 列名2 = 列值2 where 条件;
 * 删除表数据：delete from 表名 where 条件;
 * 清空表数据：truncate table 表名;
 
