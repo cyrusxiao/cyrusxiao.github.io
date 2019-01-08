@@ -76,7 +76,7 @@ SQL方言：只适用于指定的数据库，如MySQL的limit
 2. 逻辑运算符：or、and
 3. 范围：in(i1, i2, i3) 等价于 x=i1 or x=i2 or x=i3、between i1 and i2 等价于 x>=i1 and x<=i2
 4. 判断：is null、is not null
-5. 模糊查询：like 表达式 (表达式中 %代表0到多个字符) 、_代表一个字符)
+5. 模糊查询：like 表达式 （表达式中 %代表0到多个字符、_代表一个字符）
 
 **列运算**
 
