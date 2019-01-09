@@ -1,5 +1,4 @@
 ---
-layout: article
 titles:
   en      : &EN       About
   en-US   : *EN
@@ -17,6 +16,10 @@ titles:
   ko-KR   : *KO
 key: page-about
 show_title: false
+article_header:
+  type: cover
+  image:
+    src: /images/about1.jpg
 ---
 
 嗨！我是肖奎，英文名Cyrus Xiao，目前在杭州做程序员工作。
