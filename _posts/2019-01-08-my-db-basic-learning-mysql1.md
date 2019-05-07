@@ -1,10 +1,6 @@
 ---
 title: 数据库基础学习-MySQL(一)
 tags: 数据库基础 MySQL
-article_header:
-  type: cover
-  image:
-    src: /images/mysql1.jpg
 key: mysql1
 ---
 ## 一、基础知识
